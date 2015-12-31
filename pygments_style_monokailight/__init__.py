@@ -1,1 +1,1 @@
-from monokailight import *
+from .monokailight import *
