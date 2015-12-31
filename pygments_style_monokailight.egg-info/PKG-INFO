@@ -1,0 +1,62 @@
+Metadata-Version: 1.1
+Name: pygments-style-monokailight
+Version: 0.1
+Summary: Pygments version of the monokai theme for light backgorunds.
+Home-page: https://github.com/mlgill/pygments-style-monokailight
+Author: Michelle Gill
+Author-email: michelle@michellelynngill.com
+License: MIT
+Description: This is a pygments style based on the popular Monokai color scheme. This version is suitable for light backgrounds, whereas the original scheme is designed for dark backgrounds.
+        
+        
+        Installation
+        ============
+        
+        Conda
+        -----
+        ::
+        
+           $ conda install -c mlgill pygments-style-monokailight
+        
+        PyPI and pip
+        ------------
+        ::
+        
+           $ pip install pygments-style-monokailight
+        
+        
+        Source
+        ------
+        ::
+        
+           $ git clone git://github.com/mlgill/pygments-style-monokailight
+           $ cd pygments-style-monokailight
+           $ python setup.py install
+        
+        
+        Usage Sample
+        ------------
+        ::
+        
+           >>> from pygments.formatters import HtmlFormatter
+           >>> HtmlFormatter(style='monokailight').style
+           <class 'pygments_style_monokailight.MonokaiLightStyle'>
+        
+        
+        Export the style as CSS
+        -----------------------
+        ::
+        
+           pygmentize -S monokailight -f html > monokailight.css
+        
+        
+Keywords: pygments,style,monokai,syntax highlighting
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

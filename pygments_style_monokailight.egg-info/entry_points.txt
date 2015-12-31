@@ -1,0 +1,4 @@
+
+        [pygments.styles]
+        monokailight=pygments_style_monokailight:MonokaiLightStyle
+    
