@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1'
+version = '0.2'
 long_description = '\n'.join([
     open('README.rst').read(),
     ])
@@ -23,7 +23,7 @@ classifiers = [
 setup(
     name='pygments-style-monokailight',
     version=version,
-    description='Pygments version of the monokai theme for light backgorunds.',
+    description='Pygments version of the monokai theme for light backgrounds.',
     long_description=long_description,
     classifiers=classifiers,
     keywords=['pygments', 'style', 'monokai', 'syntax highlighting'],
